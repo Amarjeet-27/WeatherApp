@@ -1,0 +1,91 @@
+.weatherapi{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+   background-image: url('./images/cloud.jpg');
+    background-attachment: fixed;
+    background-size: 50%;
+    object-fit: cover;
+    border-radius: 40px;
+    background-position: center;
+
+}
+
+.first{
+    /* width: 600px; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 3rem;
+    position: relative;
+} 
+ .hue{
+    position: absolute;
+    right: 11px;
+    
+    cursor: pointer;
+}
+.first input{
+    
+    border-radius: 20px;
+    padding: .8rem .5rem;
+    font-size: 1.2rem;
+    width: 150px;
+    color: black;
+    border: 1px solid rgb(138, 146, 223);
+    /* outline: none; */
+    font-weight: 450;
+    background-color: #f1ecec;
+    letter-spacing: 1.4px;
+}
+
+
+.mid{
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mid h1{
+    font-size: 3rem;
+}
+.bottom{
+    /* margin: 0; */
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.bottom p{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.bottom img{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+   
+}
+ .bottom .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.notfound{
+    position: relative;
+    top: 55PX;
+
+    font-size: 3rem;
+}
